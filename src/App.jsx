@@ -189,44 +189,58 @@ const App = () => {
         </div>
       </section>
 
-      {/* Services */}
-      <section className="section bg-charcoal text-cream">
+      {/* Services / Two Pathways */}
+      <section id="services" className="section bg-charcoal text-cream">
         <div className="container">
           <div style={{ maxWidth: '600px', marginBottom: '80px' }}>
-            <SectionHeader label="Ways of Working" />
-            <h2 className="h2-heading reveal">Architected For Impact.</h2>
+            <SectionHeader label="Executive Pathways" />
+            <h2 className="h2-heading reveal">Two frameworks to scale culture.</h2>
           </div>
 
-          <div className="services-grid">
-            {/* 1 */}
-            <div className="hover-card reveal stagger-1" style={{ border: '1px solid var(--color-taupe)', padding: '48px', borderColor: 'rgba(120, 113, 108, 0.3)' }}>
-              <div className="section-label text-gold" style={{ marginBottom: '16px' }}>01 / Discovery</div>
-              <h3 className="h3-heading" style={{ marginBottom: '24px' }}>Diagnose the gap in a single intensive session</h3>
-              <p className="body-text" style={{ color: 'var(--color-taupe)', marginBottom: '48px' }}>
-                A high-impact executive workshop to surface immediate structural pressures and map foundational alignment.
-              </p>
-              <a href="#contact" className="btn btn-outline text-cream" style={{ width: '100%' }}>Start the Conversation</a>
+          <div style={{ display: 'grid', gap: '80px' }}>
+            
+            {/* Pathway 1: Corporate */}
+            <div className="reveal">
+              <h3 className="h3-heading" style={{ marginBottom: '16px', color: 'var(--color-cream)' }}>Corporate Culture Transformation</h3>
+              <div className="gold-rule" style={{ width: '60px', marginBottom: '40px' }}></div>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '32px' }}>
+                <div className="hover-card" style={{ border: '1px solid rgba(120, 113, 108, 0.3)', padding: '40px' }}>
+                  <div className="section-label text-gold" style={{ marginBottom: '16px' }}>01 / Strategic Architecture</div>
+                  <p className="body-text text-taupe">A business scales safely only when implicit rules become explicit strategies. We audit your operational history and build essential frameworks.</p>
+                </div>
+                <div className="hover-card" style={{ border: '1px solid rgba(120, 113, 108, 0.3)', padding: '40px' }}>
+                  <div className="section-label text-gold" style={{ marginBottom: '16px' }}>02 / Operational Alignment</div>
+                  <p className="body-text text-taupe">Eradicate siloed working. When accountability is mapped clearly, your organisation begins to run with clockwork efficiency.</p>
+                </div>
+                <div className="hover-card" style={{ border: '1px solid rgba(120, 113, 108, 0.3)', padding: '40px' }}>
+                  <div className="section-label text-gold" style={{ marginBottom: '16px' }}>03 / Revenue Unblocking</div>
+                  <p className="body-text text-taupe">Growth is rarely linear. We diagnose the friction points in your economic engine and deploy solutions to reignite momentum.</p>
+                </div>
+                <div className="hover-card" style={{ border: '1px solid rgba(120, 113, 108, 0.3)', padding: '40px' }}>
+                  <div className="section-label text-gold" style={{ marginBottom: '16px' }}>04 / Executive Mastery</div>
+                  <p className="body-text text-taupe">Modern complexities require dynamic leadership. 1-2-1 and group executive coaching elevating operators to forward-thinking visionaries.</p>
+                </div>
+              </div>
             </div>
 
-            {/* 2 */}
-            <div className="hover-card reveal stagger-2 bg-cream" style={{ padding: '48px', color: 'var(--color-charcoal)' }}>
-               <div className="section-label text-gold" style={{ marginBottom: '16px' }}>02 / Transformation Programme</div>
-              <h3 className="h3-heading" style={{ marginBottom: '24px', color: 'var(--color-charcoal)' }}>A 12-week embedded culture redesign</h3>
-              <p className="body-text text-taupe" style={{ marginBottom: '48px' }}>
-                Deep-dive stakeholder interviews, custom implementation roadmaps, and psychometric profiling to rebuild your operational rhythm.
-              </p>
-              <a href="#contact" className="btn btn-gold" style={{ width: '100%' }}>Start the Conversation</a>
+            {/* Pathway 2: SME */}
+            <div className="reveal">
+              <h3 className="h3-heading" style={{ marginBottom: '16px', color: 'var(--color-cream)' }}>SME Growth Accelerator</h3>
+              <div className="gold-rule" style={{ width: '60px', marginBottom: '40px' }}></div>
+              <div className="hover-card bg-cream" style={{ color: 'var(--color-charcoal)', padding: '48px', display: 'flex', flexDirection: 'column', gap: '24px' }}>
+                 <div>
+                   <div className="section-label text-gold" style={{ marginBottom: '16px' }}>The 6-Month Mastermind</div>
+                   <h4 className="h3-heading">Ambitious business coaching for revenues under £500,000.</h4>
+                 </div>
+                 <p className="body-text text-taupe" style={{ maxWidth: '800px' }}>
+                   Delivered over six half-day intensive sessions and limited to 12 forward-thinking founders. By leveraging the core frameworks of the proven Tricres model, we systematically build a fitter, healthier business architecture spanning Culture, Strategy, and Economic Engines. Spread the investment over six months and accelerate to the next tier safely.
+                 </p>
+                 <div style={{ marginTop: '16px' }}>
+                   <a href="mailto:hello@thecorporateculturecoach.co.uk" className="btn btn-gold">Inquire About Cohorts</a>
+                 </div>
+              </div>
             </div>
 
-            {/* 3 */}
-            <div className="hover-card reveal stagger-3" style={{ border: '1px solid var(--color-taupe)', padding: '48px', borderColor: 'rgba(120, 113, 108, 0.3)' }}>
-               <div className="section-label text-gold" style={{ marginBottom: '16px' }}>03 / Strategic Retainer</div>
-              <h3 className="h3-heading" style={{ marginBottom: '24px' }}>Ongoing advisory for leaders scaling culture</h3>
-              <p className="body-text" style={{ color: 'var(--color-taupe)', marginBottom: '48px' }}>
-                Continuous review iterations, on-call executive sparring, and behavioral mapping as you navigate hyper-growth.
-              </p>
-              <a href="#contact" className="btn btn-outline text-cream" style={{ width: '100%' }}>Start the Conversation</a>
-            </div>
           </div>
         </div>
       </section>
