@@ -98,8 +98,8 @@ const App = () => {
       <header className="split-hero">
         <div className="split-hero-content bg-charcoal">
           <div className="reveal">
-            <div className="gold-rule-wrapper text-cream" style={{ marginBottom: '24px' }}>
-              <div className="section-label">Tamsin Kaminski</div>
+            <div style={{ marginBottom: '40px' }}>
+              <img src={logoImage} alt="The Corporate Culture Coach" style={{ width: '100%', maxWidth: '320px', height: 'auto', borderRadius: '8px' }} />
             </div>
             <h1 className="h1-display text-cream" style={{ marginBottom: '24px' }}>
               Culture is the Competitive Advantage You're Not Measuring.
@@ -247,19 +247,19 @@ const App = () => {
                   <p className="body-text" style={{ color: 'var(--color-taupe)' }}>The Corporate Culture Coach</p>
                 </div>
                 <div>
-                  <div className="section-label" style={{ marginBottom: '24px', color: 'var(--color-taupe)' }}>Services</div>
+                  <div className="section-label" style={{ marginBottom: '24px', color: 'var(--color-taupe)' }}>Stay Connected</div>
                   <ul style={{ listStyle: 'none', padding: 0 }}>
-                    <li style={{ marginBottom: '12px' }}><a href="#" style={{ color: 'var(--color-cream)', textDecoration: 'none' }}>Discovery</a></li>
-                    <li style={{ marginBottom: '12px' }}><a href="#" style={{ color: 'var(--color-cream)', textDecoration: 'none' }}>Transformation</a></li>
-                    <li style={{ marginBottom: '12px' }}><a href="#" style={{ color: 'var(--color-cream)', textDecoration: 'none' }}>Retainer</a></li>
+                    <li style={{ marginBottom: '12px' }}><a href="mailto:hello@thecorporateculturecoach.co.uk" className="body-text" style={{ color: 'var(--color-cream)', textDecoration: 'none', fontSize: '14px' }}>Email</a></li>
+                    <li style={{ marginBottom: '12px' }}><a href="https://www.instagram.com/thecorporporateculturecoach/" className="body-text" style={{ color: 'var(--color-cream)', textDecoration: 'none', fontSize: '14px' }}>Instagram</a></li>
+                    <li style={{ marginBottom: '12px' }}><a href="https://www.facebook.com/profile.php?id=61576665399316" className="body-text" style={{ color: 'var(--color-cream)', textDecoration: 'none', fontSize: '14px' }}>Facebook</a></li>
                   </ul>
                 </div>
                 <div>
-                  <div className="section-label" style={{ marginBottom: '24px', color: 'var(--color-taupe)' }}>Company</div>
+                  <div className="section-label" style={{ marginBottom: '24px', color: 'var(--color-taupe)' }}>Quick Links</div>
                   <ul style={{ listStyle: 'none', padding: 0 }}>
-                    <li style={{ marginBottom: '12px' }}><a href="#" style={{ color: 'var(--color-cream)', textDecoration: 'none' }}>About Tamsin</a></li>
-                    <li style={{ marginBottom: '12px' }}><a href="#" style={{ color: 'var(--color-cream)', textDecoration: 'none' }}>Methodology</a></li>
-                    <li style={{ marginBottom: '12px' }}><a href="#" style={{ color: 'var(--color-cream)', textDecoration: 'none' }}>Contact</a></li>
+                    <li style={{ marginBottom: '12px' }}><a href="https://paperbell.me/thecorporateculturecoach" className="body-text" style={{ color: 'var(--color-cream)', textDecoration: 'none', fontSize: '14px' }}>Individual Coaching</a></li>
+                    <li style={{ marginBottom: '12px' }}><a href="https://app.paperbell.com/checkout/packages/164767" className="body-text" style={{ color: 'var(--color-cream)', textDecoration: 'none', fontSize: '14px' }}>Digital Downloads</a></li>
+                    <li style={{ marginBottom: '12px' }}><a href="https://app.paperbell.com/checkout/packages/157373" className="body-text" style={{ color: 'var(--color-cream)', textDecoration: 'none', fontSize: '14px' }}>Young Female Leadership</a></li>
                   </ul>
                 </div>
                 <div>
