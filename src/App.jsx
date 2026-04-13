@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import tamsinImage from './assets/tamsin.png';
+import tamsinImage from './assets/tamsin.jpg';
 import logoImage from './assets/logo.png';
 import './index.css';
 
