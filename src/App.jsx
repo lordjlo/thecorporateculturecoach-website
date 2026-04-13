@@ -121,7 +121,7 @@ const App = () => {
       {/* Trust Strip */}
       <section className="bg-cream" style={{ padding: '80px 0' }}>
         <div className="container reveal text-center">
-          <div className="section-label" style={{ marginBottom: '32px' }}>Trusted By Forward-Thinking Organisations</div>
+          <div className="section-label" style={{ marginBottom: '32px', textTransform: 'uppercase' }}>Companies that trust us</div>
           <div className="logo-strip-grid">
             <Hexagon size={32} /><Triangle size={32} /><Circle size={32} /><Square size={32} /><Star size={32} /><Diamond size={32} />
           </div>
@@ -257,7 +257,7 @@ const App = () => {
           <div className="container">
              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '48px', textAlign: 'left', marginBottom: '80px' }}>
                 <div style={{ gridColumn: '1 / -1', maxWidth: '300px' }}>
-                  <img src={logoImage} alt="The Corporate Culture Coach Logo" style={{ height: '40px', marginBottom: '24px', filter: 'brightness(0) invert(1)' }} />
+                  <img src={logoImage} alt="The Corporate Culture Coach Logo" style={{ height: '80px', width: 'auto', marginBottom: '24px', borderRadius: '4px' }} />
                   <p className="body-text" style={{ color: 'var(--color-taupe)' }}>The Corporate Culture Coach</p>
                 </div>
                 <div>
